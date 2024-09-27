@@ -20,9 +20,10 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color-topo: #edcb34;
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37423b; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #3e7ad0; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #3e6cc6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,11 +31,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #272828;  /* The default color of the main navmenu links */
-  --nav-hover-color: #edcb34; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #3e7ad0; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #272828; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #edcb34; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #3e6cc6; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -223,19 +224,28 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 15px 0;
+  background: linear-gradient(to right, #a4bbff, #afeeff);
+  padding: 0 0;
   transition: all 0.5s;
   z-index: 997;
 }
+
+
 
 .header .logo {
   line-height: 1;
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 96px;
   margin-right: 8px;
+}
+
+@media (max-width: 768px) { /* Ajuste o valor conforme necessário */
+  .header .logo img {
+      max-height: 62px;
+      margin-right: 0px;
+  }
 }
 
 .header .logo h1 {
@@ -941,6 +951,74 @@ section,
   }
 
   .hero p {
+    font-size: 18px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Banner-Home Section
+--------------------------------------------------------------*/
+
+
+.banner-home img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.banner-home:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.banner-home .container {
+  position: relative;
+  z-index: 3;
+}
+
+.banner-home h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner-home p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+.banner-home .btn-get-started {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 35px 10px 35px;
+  border-radius: 50px;
+  transition: 0.4s;
+  margin-top: 30px;
+  border: 2px solid var(--default-color);
+  color: var(--default-color);
+}
+
+.banner-home .btn-get-started:hover {
+  background: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .banner-home h2 {
+    font-size: 32px;
+  }
+
+  .banner-home p {
     font-size: 18px;
   }
 }
@@ -1887,3 +1965,65 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.banner-home {
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  min-height: 80vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--default-color);
+}
+
+.carousel-item {
+  height: 80vh; /* Ajuste conforme necessário */
+}
+
+.carousel-item img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute; /* Para sobrepor a imagem */
+  top: 60%; /* Centralizar verticalmente */
+  left: 30%; /* Centralizar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste para o centro exato */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centralizar texto */
+  padding: 0 20px; /* Adiciona padding para evitar que o texto encoste nas bordas */
+  z-index: 10; /* Garante que o texto fique acima da imagem */
+  
+}
+
+.carousel-caption h2,
+.carousel-caption p {
+  margin: 0; /* Remover margens */
+  text-align: start;
+}
+
+.carousel-caption .btn-get-started {
+  margin-top: 15px; /* Espaço entre texto e botão */
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h2 {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte no mobile */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Ajusta o tamanho da fonte no mobile */
+  }
+
+  .carousel-caption .btn-get-started {
+    font-size: 0.9rem; /* Ajusta o tamanho do botão no mobile */
+  }
+}
+
