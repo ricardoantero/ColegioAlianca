@@ -1,72 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Colégio Aliança</title>
-  <meta name="description" content="Colégio Aliança Infantil e Médio, um espaço acolhedor e inspirador dedicado ao desenvolvimento integral das crianças. Aqui, acreditamos que cada aluno é único e merece uma educação que estimule suas habilidades e talentos individuais.">
-  <meta name="keywords" content="Colégio, Aliança, Educação, Infantil, Médio, Professores, Aprendizado">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
- 
-</head>
-
+<?php include('assets/master/menuTopo.php'); ?>
 <body class="starter-page-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index " class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"><Colégio Aliança></h1>
-        <img src="assets/img/logo-alianca-azul.png" alt="Colégio Aliança">
-        <img src="assets/img/logo-azul-escrito.png" alt="Colégio Aliança">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="sobre">Quem Somos</a></li>
-          <li class="dropdown"><a href="#"><span>Ensino</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="infantil">Infantil</a></li>
-              <li><a href="fundamental">Fundamental I e II</a></li>
-              <li><a href="medio">Médio</a></li>
-              <li><a href="material">Material Pedagógico</a></li>
-            </ul>
-          </li>
-          <li><a href="courses ">Extracurricular</a></li>
-          <li><a href="courses ">Galeria</a></li>
-          <li><a href="trainers ">Parceiros</a></li>
-          <li><a href="contato">Contato</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="matriculas">Matricule-se</a>
-
-    </div>
-  </header>
-
+<?php include('assets/master/menuTopo.php'); ?>
   <main class="main">
 
     <!-- Page Title -->
