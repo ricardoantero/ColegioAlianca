@@ -2,11 +2,9 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index " class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename"><Colégio Aliança></h1>
-        <img src="assets/img/logo-alianca-azul.png" alt="Colégio Aliança">
-        <img src="assets/img/logo-azul-escrito.png" alt="Colégio Aliança">
+        <img class="logo-mobile" src="assets/img/logo-alianca-colorido.png" alt="Colégio Aliança">
+        <img class="logo-desktop"src="assets/img/logo-colorido.png" alt="Colégio Aliança">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -17,18 +15,31 @@
               <li><a href="infantil">Infantil</a></li>
               <li><a href="fundamental">Fundamental I e II</a></li>
               <li><a href="medio">Médio</a></li>
-              <li><a href="material">Material Pedagógico</a></li>
             </ul>
           </li>
           <li><a href="courses ">Extracurricular</a></li>
-          <li><a href="courses ">Galeria</a></li>
-          <li><a href="trainers ">Parceiros</a></li>
-          <li><a href="contato">Contato</a></li>
+          <li><a href="eventos ">Eventos</a></li>
+          <li class="dropdown"><a href="#"><span>Parceiros</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a target="_blank" href="https://www.instagram.com/accquasports/?hl=pt">Accqua Sports</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/clinicaniquerito/?hl=pt">Clinica Niquerito</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/espacosentirpensar/?hl=pt">Espaço Sentir e Pensar</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/boxmairinque/?hl=pt">My Box</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/mayrinkodontoeestetica/?hl=pt">Odonto Mayrink</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/studiolumus_/?hl=pt">Studio Lumus</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Contato</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a  href="contato">Fale Conosco</a></li>
+              <li><a  href="contato">Trabalhe Conosco</a></li>
+            </ul>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="matriculas">Matricule-se</a>
+      <a class="btn-getstarted" href="matriculas">Matrículas Abertas</a>
 
     </div>
   </header>

@@ -2,83 +2,28 @@
 <body class="index-page">
   <?php include('assets/master/menuTopo.php'); ?>
   <main class="main">
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-      <div class="container">
-        <h2 data-aos="fade-up" data-aos-delay="100">Venha nos conhecer!</h2>
-        <p data-aos="fade-up" data-aos-delay="200">Se você procura um colégio que valorize a educação integral <br> e o bem-estar das crianças, agende uma visita e descubra <br> tudo o que o nosso Colégio tem a oferecer.</p>
-        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="matriculas" class="btn-get-started">Matriculas abertas 2025</a>
-        </div>
-      </div>
-
-    </section>
-
+  
+    <picture class="banner-desktop"> <source media="(max-width: 575px)" srcset="assets/img/banner_home_site_mobile.gif">
+    <img class="banner-desktop" src="assets/img/banner_home_site_desktop.gif" alt="Colégio Aliança" data-aos="fade-in">
+    </picture>
     <section id="about" class="about section">
-
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/logo-vertical.png" class="img-fluid" alt="">
+          <video class="video-element" controls="" width="100%"><source src="https://www.disalconsorcio.com.br//portal/principal/arquivos/video/_disal.mp4" type="video/mp4"></video>
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
             <h3>Uma nova aliança é formada em cada fase</h3>
-            <p class="fst-italic">
-              No nosso colégio, a educação é uma jornada transformadora que prepara os alunos para os desafios do futuro. Oferecemos um currículo abrangente e inovador, que vai além da simples transmissão de conhecimento. Aqui, cada etapa da formação é pensada para promover o desenvolvimento integral dos nossos estudantes.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Ensino Infantil, aprendizado começa com a magia da descoberta. Nosso Ensino Infantil é projetado para proporcionar um ambiente acolhedor e estimulante, onde as crianças podem explorar, criar e se desenvolver de forma integral. Acreditamos que os primeiros anos de vida são fundamentais para a formação de cidadãos curiosos, criativos e autoconfiantes.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ensino Fundamental é a base da formação acadêmica. Nossos educadores utilizam métodos dinâmicos e interativos, garantindo que os alunos desenvolvam habilidades essenciais, como pensamento crítico, criatividade e colaboração.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>No Ensino Médio, nosso foco é preparar os alunos para os desafios acadêmicos e profissionais que estão por vir. Através de um ensino de excelência e um ambiente colaborativo, incentivamos o desenvolvimento de competências necessárias para a vida em sociedade e para o ingresso em universidades.</span></li>
-            </ul>
-            <a href="ensino" class="read-more"><span>Veja mais sobre o nosso ensino</span><i class="bi bi-arrow-right"></i></a>
+            <p>no Ensino Infantil, os alunos descobrem o mundo; no Ensino Fundamental, consolidam conhecimentos; e no Ensino Médio, se preparam para o futuro, moldando suas identidades e trajetórias.</p>
+           <p>Essa jornada não é apenas sobre aprender conteúdos, mas também sobre construir relacionamentos e valores que acompanharão os alunos por toda a vida. Na Escola Aliança, cada fase é celebrada como uma oportunidade de crescimento e descoberta.</p>
+            <a href="infantil" class="read-more-yellow"><span>Ensino Infantil</span><i class="bi bi-arrow-right"></i></a>
+            <a href="fundamental" class="read-more-green"><span>Ensino Fundamental I e II</span><i class="bi bi-arrow-right"></i></a>
+            <a href="medio" class="read-more"><span>Ensino Médio</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Counts Section -->
-    <section id="counts" class="section counts light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Estudantes já passaram por aqui</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Aprovados em universidades</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Cursos extracurriculares</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Unidades</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Counts Section -->
-
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us">
 
@@ -93,7 +38,7 @@
                 Por isso trabalhamos com  material pedagógico Bernoulli que é essencial para o processo de aprendizagem, pois não apenas enriquece as aulas com recursos visuais e interativos, mas também estimula a curiosidade e o interesse dos alunos. Ele proporciona uma base sólida para a construção do conhecimento, tornando o aprendizado mais dinâmico e significativo, e prepara os estudantes para os desafios do futuro.
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn"><span>Saiba mais sobre nossa proposta pedagógica</span> <i class="bi bi-chevron-right"></i></a>
+                <a target="_blank" href="https://www.bernoulli.com.br/colegio/quem-somos/solucoes-didaticas/" class="more-btn"><span>Saiba mais sobre o material Bernoulli</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -111,9 +56,10 @@
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-gem"></i>
+                  <i class="bi bi-rocket-takeoff-fill"></i>
                   <h4>Nossa aliança é com você aluno</h4>
-                  <p>Na nossa escola, vemos cada aluno como um diamante bruto, repleto de potencial. Assim como um diamante precisa de cuidado para brilhar, nossos educadores se dedicam a desenvolver as habilidades de cada estudante. Com uma abordagem personalizada e um ambiente estimulante.</p>
+                  <p>No colégio Aliança, cada aluno é incentivado a desbravar novos horizontes, pronto para decolar em sua jornada de aprendizado. Aqui, cultivamos um ambiente que estimula a curiosidade e a inovação, preparando nossos estudantes para grandes conquistas.
+                  </p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -132,67 +78,9 @@
 
       </div>
 
-    </section><!-- /Why Us Section -->
-
-    <!-- Features Section 
-    <section id="features" class="features section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="features-item">
-              <i class="bi bi-eye" style="color: #ffbb2c;"></i>
-              <h3><a href="" class="stretched-link">Lorem Ipsum</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="features-item">
-              <i class="bi bi-infinity" style="color: #5578ff;"></i>
-              <h3><a href="" class="stretched-link">Dolor Sitema</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="" class="stretched-link">Sed perspiciatis</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="features-item">
-              <i class="bi bi-nut" style="color: #e361ff;"></i>
-              <h3><a href="" class="stretched-link">Magni Dolores</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="features-item">
-              <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-              <h3><a href="" class="stretched-link">Nemo Enim</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="features-item">
-              <i class="bi bi-star" style="color: #ffa76e;"></i>
-              <h3><a href="" class="stretched-link">Eiusmod Tempor</a></h3>
-            </div>
-          </div>
-
-        
-
-        </div>
-
-      </div>
-
-    </section>--><!-- /Features Section -->
-
+    </section>
     <!-- Courses Section -->
-    <section id="courses" class="courses section">
+    <section id="trainers" class="section trainers">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -201,66 +89,36 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="course-item">
-              <img src="assets/img/infantil-1.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Infantil</p>
-                </div>
-
-                <h3><a href="infantil">Oferecemos uma variedade de atividades que incluem:</a></h3>
-                <p class="description">
-                  Artes: Incentivamos a expressão criativa através de pinturas, músicas e teatros.</p>
-                  <p class="description"> Esportes: Promovemos o desenvolvimento físico e o trabalho em equipe.</p>
-                    <p class="description"> Educação Socioemocional: Trabalhamos valores como empatia, respeito e amizade desde cedo.</p>
-    
-              </div>
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img-yellow">
+              <img src="assets/img/infantil-1.jpg" class="img-fluid" alt="">
             </div>
-          </div> <!-- End Course Item-->
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="course-item">
-              <img src="assets/img/fundamental-1.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Fundamental I e II</p>
-                </div>
-
-                <h3><a href="infantil">Oferecemos uma variedade de atividades que incluem:</a></h3>
-                <p class="description">
-                  Artes: Incentivamos a expressão criativa através de pinturas, músicas e teatros.</p>
-                  <p class="description"> Esportes: Promovemos o desenvolvimento físico e o trabalho em equipe.</p>
-                    <p class="description"> Educação Socioemocional: Trabalhamos valores como empatia, respeito e amizade desde cedo.</p>
-    
-              </div>
+            <div class="member-info text-center">
+              <h4>Infantil</h4>
             </div>
-          </div> 
+          </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="course-item">
-              <img src="assets/img/medio-1.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Médio</p>
-                </div>
-
-                <h3><a href="infantil">Oferecemos uma variedade de atividades que incluem:</a></h3>
-                <p class="description">
-                  Artes: Incentivamos a expressão criativa através de pinturas, músicas e teatros.</p>
-                  <p class="description"> Esportes: Promovemos o desenvolvimento físico e o trabalho em equipe.</p>
-                    <p class="description"> Educação Socioemocional: Trabalhamos valores como empatia, respeito e amizade desde cedo.</p>
-    
-              </div>
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img-green">
+              <img src="assets/img/fundamental-1.jpg" class="img-fluid" alt="">
             </div>
-          </div> 
+            <div class="member-info text-center">
+              <h4>Fundamental I e II</h4>
+            </div>
+          </div><!-- End Team Member -->
 
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="assets/img/medio-1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="member-info text-center">
+              <h4>Médio</h4>
+            </div>
+          </div><!-- End Team Member -->
         </div>
-
       </div>
+</div>
 
     </section><!-- /Courses Section -->
 

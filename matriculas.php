@@ -13,7 +13,7 @@ require 'config.php';
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Matriculas Abertas</h1>
+              <h1>Matrículas Abertas</h1>
             </div>
           </div>
         </div>

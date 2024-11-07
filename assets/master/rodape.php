@@ -20,19 +20,19 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Aliança</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Parceiros</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/sobre">Quem Somos</a></li>
+            <li><a href="/eventos">Eventos</a></li>
+            <li><a href="/trabalhe">Trabalhe Conosco</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Ensino</h4>
           <ul>
-            <li><a href="#">Ensino Infantil</a></li>
-            <li><a href="#">Ensino Fundamental I e II</a></li>
-            <li><a href="#">Ensino Médio</a></li>
-            <li><a href="#">Matriculas abertas</a></li>
+            <li><a href="/infantil">Ensino Infantil</a></li>
+            <li><a href="/fundamental">Ensino Fundamental I e II</a></li>
+            <li><a href="/medio">Ensino Médio</a></li>
+            <li><a href="/matriculas">Matrículas abertas</a></li>
           </ul>
         </div>
       </div>

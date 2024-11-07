@@ -24,8 +24,11 @@
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #37423b; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #3e6cc6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color-yellow: #edcb34;
+  --accent-color-green: #94d746;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color-hover-menu: #3e6cc6; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -271,7 +274,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, var(--background-color-topo), transparent 15%);
 }
 
 @media (max-width: 1200px) {
@@ -344,7 +347,7 @@ h6 {
   .navmenu li:hover > a,
   .navmenu .active > a,
   .navmenu .active:focus > a {
-    color: var(--contrast-color);
+    color: var(--contrast-color-hover-menu);
     background: var(--background-color-topo);
     font-size: 14px;
     padding: 8px 25px;
@@ -544,7 +547,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -838,8 +841,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
-  scroll-margin-top: 900px;
+  padding: 30px 0;
+  scroll-margin-top: 80px;
   overflow: clip;
 }
 
@@ -894,7 +897,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 80vh;
+  min-height: 78vh;
   position: relative;
   padding: 80px 0;
   display: flex;
@@ -915,7 +918,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1037,6 +1040,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-size: 2rem;
   font-weight: 700;
@@ -1075,6 +1079,34 @@ section,
   align-items: center;
   justify-content: center;
 }
+.about .content .read-more-yellow {
+  background: var(--accent-color-yellow);
+  color: var(--contrast-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px 24px 12px 24px;
+  border-radius: 50px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .content .read-more-green {
+  background: var(--accent-color-green);
+  color: var(--contrast-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px 24px 12px 24px;
+  border-radius: 50px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .about .content .read-more i {
   font-size: 18px;
@@ -1091,6 +1123,47 @@ section,
 .about .content .read-more:hover i {
   margin-left: 10px;
 }
+
+@media (max-width: 1400px) {
+  .about .content .read-more {
+ 
+    margin-bottom: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .content .read-more-yellow {
+    background: var(--accent-color-yellow);
+    color: var(--contrast-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 24px 12px 24px;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .content .read-more-green {
+    background: var(--accent-color-green);
+    color: var(--contrast-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 24px 12px 24px;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  }
+
 
 /*--------------------------------------------------------------
 # Counts Section
@@ -1656,6 +1729,29 @@ section,
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  border: 5px solid var(--accent-color); /* Altere a cor e a largura da borda conforme necessário */
+  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
+}
+
+.trainers .member .member-img-green {
+  margin: 0 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid var(--accent-color-green); /* Altere a cor e a largura da borda conforme necessário */
+  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
+}
+
+.trainers .member .member-img-yellow {
+  margin: 0 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid var(--accent-color-yellow); /* Altere a cor e a largura da borda conforme necessário */
+  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
 
 @media (max-width: 1024px) {
@@ -2036,5 +2132,21 @@ section,
   .carousel-caption .btn-get-started {
     font-size: 0.9rem; /* Ajusta o tamanho do botão no mobile */
   }
+}
+
+.logo-mobile {
+  display: none; /* Oculta a imagem por padrão */
+}
+
+@media (min-width: 768px) {
+  .logo-mobile {
+      display: block; /* Mostra a imagem em telas maiores */
+  }
+}
+
+.banner-desktop
+{
+  width: 100%;
+  height: auto;
 }
 
