@@ -8,8 +8,8 @@
           <div class="footer-contact pt-3">
             <p>R. Miguel Ferreira Manão, 37</p>
             <p>Trigal, Mairinque</p>
-            <p class="mt-3"><strong>Telefone:</strong> <span>(11) 97358-1540</span></p>
-            <p><strong>Email:</strong> <span>alianca@alianca.com.br</span></p>
+            <p class="mt-3"><strong>Telefone:</strong> <span><a href="tel:+5511973581540">(11) 97358-1540</a> </span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:alianca@alianca.com.br">alianca@alianca.com.br</a></span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href="https://www.facebook.com/aliancamairinque/?locale=pt_BR" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -23,7 +23,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/sobre">Quem Somos</a></li>
             <li><a href="/eventos">Eventos</a></li>
-            <li><a href="/trabalhe">Trabalhe Conosco</a></li>
+            <li><a href="/extracurricular">Extracurricular</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">

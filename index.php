@@ -10,13 +10,13 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-          <video class="video-element" controls="" width="100%"><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
+          <video id="meu-video" class="video-element" controls="" width="100%"><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Uma nova aliança é formada em cada fase</h3>
-            <p>no Ensino Infantil, os alunos descobrem o mundo; no Ensino Fundamental, consolidam conhecimentos; e no Ensino Médio, se preparam para o futuro, moldando suas identidades e trajetórias.</p>
-           <p>Essa jornada não é apenas sobre aprender conteúdos, mas também sobre construir relacionamentos e valores que acompanharão os alunos por toda a vida. Na Escola Aliança, cada fase é celebrada como uma oportunidade de crescimento e descoberta.</p>
+            <h3>Uma nova Aliança é formada em cada fase.</h3>
+            <p>No Ensino Infantil, os alunos descobrem o mundo; no Ensino Fundamental, consolidam conhecimentos; e no Ensino Médio, se preparam para o futuro, moldando suas identidades e trajetórias.</p>
+           <p>Essa jornada não é apenas sobre aprender conteúdos, mas também sobre construir relacionamentos e valores que acompanharão os alunos por toda a vida. No Colégio Aliança, cada fase é celebrada como uma oportunidade de crescimento e descoberta.</p>
             <a href="infantil" class="read-more-yellow"><span>Ensino Infantil</span><i class="bi bi-arrow-right"></i></a>
             <a href="fundamental" class="read-more-green"><span>Ensino Fundamental I e II</span><i class="bi bi-arrow-right"></i></a>
             <a href="medio" class="read-more"><span>Ensino Médio</span><i class="bi bi-arrow-right"></i></a>
@@ -35,10 +35,10 @@
             <div class="why-box">
               <h3>No Aliança, acreditamos que o aprendizado é mais forte quando compartilhado.</h3>
               <p>
-                Por isso trabalhamos com  material pedagógico Bernoulli que é essencial para o processo de aprendizagem, pois não apenas enriquece as aulas com recursos visuais e interativos, mas também estimula a curiosidade e o interesse dos alunos. Ele proporciona uma base sólida para a construção do conhecimento, tornando o aprendizado mais dinâmico e significativo, e prepara os estudantes para os desafios do futuro.
+              Por isso, somos parceiros do renomado Sistema de Ensino Bernoulli, um dos melhores do Brasil, reconhecido por sua metodologia inovadora e resultados consistentes. Ele proporciona uma base sólida para a construção do conhecimento, tornando o aprendizado mais dinâmico e significativo.
               </p>
               <div class="text-center">
-                <a target="_blank" href="https://www.bernoulli.com.br/colegio/quem-somos/solucoes-didaticas/" class="more-btn"><span>Saiba mais sobre o material Bernoulli</span> <i class="bi bi-chevron-right"></i></a>
+                <a target="_blank" href="https://www.bernoulli.com.br/colegio/quem-somos/solucoes-didaticas/" class="more-btn"><span>Conheça mais o Sistema de Ensino Bernoulli</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -48,26 +48,26 @@
 
               <div class="col-xl-4">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-pencil"></i>
-                  <h4>Ensino de Qualidade</h4>
-                  <p>Contamos com salas de aula arejadas e bem equipadas, além de espaços ao ar livre que incentivam a exploração e o contato com a natureza. Nossas instalações são seguras e adequadas ao desenvolvimento infantil, permitindo que as crianças brinquem e aprendam com liberdade.</p>
+                  <i class="bi bi-book"></i>
+                  <h4>Material Didático</h4>
+                  <p>O Bernoulli oferece materiais didáticos completos e atualizados, aliados a uma abordagem pedagógica que acompanha os alunos em cada etapa de sua formação, desde a Educação Infantil até o Ensino Médio. A proposta é baseada no "conhecimento em espiral", que revisita conteúdos em níveis crescentes de complexidade, promovendo um aprendizado contínuo e significativo.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-rocket-takeoff-fill"></i>
-                  <h4>Nossa aliança é com você aluno</h4>
-                  <p>No colégio Aliança, cada aluno é incentivado a desbravar novos horizontes, pronto para decolar em sua jornada de aprendizado. Aqui, cultivamos um ambiente que estimula a curiosidade e a inovação, preparando nossos estudantes para grandes conquistas.
+                  <i class="bi bi-mortarboard"></i>
+                  <h4>Educação Completa</h4>
+                  <p>Além disso, o sistema integra recursos tecnológicos avançados, projetos bilíngues e estímulos às habilidades socioemocionais, proporcionando uma formação completa para nossos estudantes. Essa excelência é comprovada pelos índices de aprovação em vestibulares e pelo desempenho destacado em avaliações nacionais.
                   </p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-mortarboard"></i>
-                  <h4>Ensinando para o futuro</h4>
-                  <p>Preparamos nossos alunos para serem protagonistas de suas próprias histórias, desenvolvendo habilidades essenciais e a criatividade necessária para enfrentar os desafios. Acreditamos que a educação vai além do conteúdo, moldando cidadãos conscientes e prontos para transformar o futuro.</p>
+                  <i class="bi bi-pencil"></i>
+                  <h4>Escolha o Aliança</h4>
+                  <p>Ao escolher o Colégio Aliança, você garante a seus filhos não apenas um ensino de qualidade, mas uma formação que valoriza o desenvolvimento humano e acadêmico, preparando-os para os desafios do futuro.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -84,36 +84,42 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Ensino</h2>
-        <p>Fases Pedagógicas</p>
+        <h2>Colégio Aliança</h2>
+        <p>CONHEÇA MAIS</p>
       </div><!-- End Section Title -->
 
       <div class="container">
         <div class="row gy-5">
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img-yellow">
-              <img src="assets/img/infantil-1.jpg" class="img-fluid" alt="">
+            <div class="member-img-green">
+            <a href="/sobre">
+              <img src="assets/img/quem-somos-1.jpg" class="img-fluid" alt="">
+            </a>
             </div>
             <div class="member-info text-center">
-              <h4>Infantil</h4>
+              <h4>Quem Somos</h4>
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img-green">
-              <img src="assets/img/fundamental-1.jpg" class="img-fluid" alt="">
+            <div class="member-img-yellow">
+              <a href="/extracurricular">
+              <img src="assets/img/extracurricular-1.jpg" class="img-fluid" alt="">
+              </a>
             </div>
             <div class="member-info text-center">
-              <h4>Fundamental I e II</h4>
+              <h4>Extracurricular</h4>
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
-              <img src="assets/img/medio-1.jpg" class="img-fluid" alt="">
+            <a href="/eventos">
+              <img src="assets/img/eventos-1.jpg" class="img-fluid" alt="">
+            </a>
             </div>
             <div class="member-info text-center">
-              <h4>Médio</h4>
+              <h4>Eventos</h4>
             </div>
           </div><!-- End Team Member -->
         </div>
@@ -245,3 +251,20 @@
 </body>
 
 </html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var video = $('#meu-video')[0]; // Seleciona o vídeo
+
+        // Define o tempo inicial para 1 segundo quando a página carregar
+        video.currentTime = 2;
+
+        // Garante que o vídeo comece a partir de 1 segundo quando o usuário clicar no play
+        $('#meu-video').on('play', function() {
+            if (video.currentTime < 2) {
+                video.currentTime = 2;
+            }
+        });
+    });
+</script>

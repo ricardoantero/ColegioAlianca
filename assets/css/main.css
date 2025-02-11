@@ -1078,6 +1078,7 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.3s ease;
 }
 .about .content .read-more-yellow {
   background: var(--accent-color-yellow);
@@ -1092,6 +1093,11 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.3s ease;
+}
+.about .content .read-more-yellow:hover {
+  background: #FFEE66; /* Cor mais clara no hover */
+  padding-right: 19px;
 }
 .about .content .read-more-green {
   background: var(--accent-color-green);
@@ -1106,6 +1112,26 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.about .content .read-more-green:hover {
+  background: #7ddf8a; /* Cor mais clara no hover */
+  padding-right: 19px;
+}
+
+.about .content .read-more-green i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.about .content .read-more-yellow i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
 }
 
 .about .content .read-more i {
@@ -1116,11 +1142,18 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background:  #66b2ff; 
   padding-right: 19px;
+  
 }
 
 .about .content .read-more:hover i {
+  margin-left: 10px;
+}
+.about .content .read-more-yellow:hover i {
+  margin-left: 10px;
+}
+.about .content .read-more-green:hover i {
   margin-left: 10px;
 }
 
@@ -1227,8 +1260,8 @@ section,
 }
 
 .why-us .why-box .more-btn:hover {
-  color: var(--accent-color);
-  background: var(--surface-color);
+  color: var(--contrast-color);
+  background: var(--accent-color-yellow);
 }
 
 .why-us .icon-box {
@@ -1818,7 +1851,7 @@ height: auto;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  border: 5px solid var(--accent-color); /* Altere a cor e a largura da borda conforme necessário */
+  border: 10px solid var(--accent-color); /* Altere a cor e a largura da borda conforme necessário */
   padding: 5px; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
@@ -1828,7 +1861,7 @@ height: auto;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  border: 5px solid var(--accent-color-green); /* Altere a cor e a largura da borda conforme necessário */
+  border: 10px solid var(--accent-color-green); /* Altere a cor e a largura da borda conforme necessário */
   padding: 5px; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
@@ -1838,7 +1871,7 @@ height: auto;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  border: 5px solid var(--accent-color-yellow); /* Altere a cor e a largura da borda conforme necessário */
+  border: 10px solid var(--accent-color-yellow); /* Altere a cor e a largura da borda conforme necessário */
   padding: 5px; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
