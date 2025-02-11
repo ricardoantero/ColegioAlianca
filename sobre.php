@@ -3,6 +3,20 @@
 <?php include('assets/master/menuTopo.php'); ?>
   <main class="main">
 
+   <!-- Page Title -->
+   <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Quem Somos</h1>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Title -->
+
    <!-- Carousel Section -->
 <!--<section id="banner-home" class="banner-home section dark-background">
   <div id="carouselExample" class="carousel slide" data-ride="carousel">
@@ -71,153 +85,95 @@
 
     </section><!-- /About Us Section -->
 
-     <!-- About Section -->
-     <section id="about" class="about section">
+ <!-- Tabs Section -->
+ <section id="tabs" class="tabs section">
 
-      <div class="container">
+<div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/logo-vertical.png" class="img-fluid" alt="">
+  <div class="row">
+    <div class="col-lg-3">
+      <ul class="nav nav-tabs flex-column">
+        <li class="nav-item">
+          <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Ensino Infantil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Ensino Fundamental I e II</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Ensino Médio</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-9 mt-4 mt-lg-0">
+      <div class="tab-content">
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-8 details order-2 order-lg-1">
+              <h3>Ensino Infantil</h3>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ana Clara Ribeiro</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Carlos Henrique</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Marcos Antônio</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Fernanda Carrilho</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-center order-1 order-lg-2">
+              <img src="assets/img/infantil-1.jpg" alt="" class="img-fluid">
+            </div>
           </div>
-
-          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Uma nova aliança é formada em cada fase</h3>
-            <p class="fst-italic">
-              No nosso colégio, a educação é uma jornada transformadora que prepara os alunos para os desafios do futuro. Oferecemos um currículo abrangente e inovador, que vai além da simples transmissão de conhecimento. Aqui, cada etapa da formação é pensada para promover o desenvolvimento integral dos nossos estudantes.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Ensino Infantil, aprendizado começa com a magia da descoberta. Nosso Ensino Infantil é projetado para proporcionar um ambiente acolhedor e estimulante, onde as crianças podem explorar, criar e se desenvolver de forma integral. Acreditamos que os primeiros anos de vida são fundamentais para a formação de cidadãos curiosos, criativos e autoconfiantes.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ensino Fundamental é a base da formação acadêmica. Nossos educadores utilizam métodos dinâmicos e interativos, garantindo que os alunos desenvolvam habilidades essenciais, como pensamento crítico, criatividade e colaboração.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>No Ensino Médio, nosso foco é preparar os alunos para os desafios acadêmicos e profissionais que estão por vir. Através de um ensino de excelência e um ambiente colaborativo, incentivamos o desenvolvimento de competências necessárias para a vida em sociedade e para o ingresso em universidades.</span></li>
-            </ul>
-            <a href="ensino" class="read-more"><span>Veja mais sobre o nosso ensino</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
         </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-     <!-- Trainers Section -->
-     <section id="trainers" class="section trainers">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <p>Direção</p>
-          <h2></h2>
-        </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-8 details order-2 order-lg-1">
+              <h3>Ensino Fundamental I e II</h3>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ana Clara Ribeiro</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Carlos Henrique</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Marcos Antônio</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Fernanda Carrilho</span></li>
+              </ul>
             </div>
-            <div class="member-info text-center">
-              <h4>Celeste</h4>
-              <span>Diretora Ensino Infantil/Fundamental</span>
-              <p>Com mais de 20 anos de experiência, Maria é uma líder visionária que inspira alunos e professores a buscarem a excelência acadêmica.</p>
+            <div class="col-lg-4 text-center order-1 order-lg-2">
+              <img src="/assets/img/fundamental-1.jpg" alt="" class="img-fluid">
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Bernadete</h4>
-              <span>Diretora Financeira</span>
-              <p> Conhecida por sua abordagem inovadora na educação, implementando programas que incentivam a criatividade e o pensamento crítico entre os estudantes.</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Andreia</h4>
-              <span>Diretora Pedagógica</span>
-              <p>valoriza a inclusão e o respeito à diversidade, criando um ambiente acolhedor onde cada aluno se sente valorizado e motivado a aprender.</p>
-            </div>
-          </div><!-- End Team Member -->
-        
-
+          </div>
         </div>
-
-      </div>
-
-    <!--  <div class="container section-title" data-aos="fade-up">
-       
-        <br><br>
-        <p>Corpo Docente</p>
-        <h2></h2>
-      </div>
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-8 details order-2 order-lg-1">
+              <h3>Ensino Médio</h3>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ana Clara Ribeiro</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Carlos Henrique</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Marcos Antônio</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Fernanda Carrilho</span></li>
+              </ul>
             </div>
-            <div class="member-info text-center">
-              <h4>Celeste</h4>
-              <span>Diretora Ensino Infantil/Fundamental</span>
-              <p>Com mais de 20 anos de experiência, Maria é uma líder visionária que inspira alunos e professores a buscarem a excelência acadêmica.</p>
+            <div class="col-lg-4 text-center order-1 order-lg-2">
+              <img src="/assets/img/medio-1.jpg" alt="" class="img-fluid">
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Bernadete</h4>
-              <span>Diretora Financeira</span>
-              <p> Conhecida por sua abordagem inovadora na educação, implementando programas que incentivam a criatividade e o pensamento crítico entre os estudantes.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Andreia</h4>
-              <span>Diretora Pedagógica</span>
-              <p>valoriza a inclusão e o respeito à diversidade, criando um ambiente acolhedor onde cada aluno se sente valorizado e motivado a aprender.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Andreia</h4>
-              <span>Diretora Pedagógica</span>
-              <p>valoriza a inclusão e o respeito à diversidade, criando um ambiente acolhedor onde cada aluno se sente valorizado e motivado a aprender.</p>
-            </div>
-          </div>
-
         </div>
+      </div>
+    </div>
+  </div>
 
-      </div>-->
+</div>
 
-    </section><!-- /Trainers Section -->
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
+</section><!-- /Tabs Section -->
+      <!-- galeria Section -->
+      <section id="galeria" class="galeria section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
        
-          <p>Depoímentos</p>
+          <p>A Nossa Escola</p>
           <h2></h2>
         </div><!-- End Section Title -->
   
@@ -240,11 +196,11 @@
                 "breakpoints": {
                   "320": {
                     "slidesPerView": 1,
-                    "spaceBetween": 40
+                    "spaceBetween": 10
                   },
                   "1200": {
-                    "slidesPerView": 2,
-                    "spaceBetween": 20
+                    "slidesPerView": 3,
+                    "spaceBetween": 10
                   }
                 }
               }
@@ -252,76 +208,36 @@
             <div class="swiper-wrapper">
   
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Ricardo Antero</h3>
-                    <h4>Ex Aluno</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
+                <div class="galeria-wrap">
+                  <div class="galeria-item">
+                    <img src="assets/img/infantil-1.jpg" class="galeria-img" alt="">
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div><!-- End galeria item -->
   
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                    <h3>Eloá Antero</h3>
-                    <h4>Ex Aluna</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
+                <div class="galeria-wrap">
+                  <div class="galeria-item">
+                    <img src="assets/img/fundamental-1.jpg" class="galeria-img" alt="">
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div><!-- End galeria item -->
   
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                    <h3>José</h3>
-                    <h4>Professor de Matemática</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
+                <div class="galeria-wrap">
+                  <div class="galeria-item">
+                    <img src="assets/img/medio-1.jpg" class="galeria-img" alt="">
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div><!-- End galeria item -->
   
               <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Maria Aparecida</h3>
-                    <h4>Mãe da Laura e Bento</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
+                <div class="galeria-wrap">
+                  <div class="galeria-item">
+                    <img src="assets/img/infantil-1.jpg" class="galeria-img" alt="">
                   </div>
                 </div>
-              </div><!-- End testimonial item -->
+              </div><!-- End galeria item -->
     
             </div>
             <div class="swiper-pagination"></div>

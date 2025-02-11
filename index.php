@@ -10,7 +10,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-          <video class="video-element" controls="" width="100%"><source src="https://www.disalconsorcio.com.br//portal/principal/arquivos/video/_disal.mp4" type="video/mp4"></video>
+          <video class="video-element" controls="" width="100%"><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">

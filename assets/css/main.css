@@ -1124,7 +1124,7 @@ section,
   margin-left: 10px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 99999px) {
   .about .content .read-more {
  
     margin-bottom: 10px;
@@ -1596,6 +1596,75 @@ section,
 }
 
 /*--------------------------------------------------------------
+# galeria Section
+--------------------------------------------------------------*/
+
+.galeria .galeria-carousel,
+.galeria .galeria-slider {
+  overflow: hidden;
+}
+
+.galeria .galeria-item {
+  background-color: var(--surface-color);
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  position: relative;
+}
+
+.galeria .galeria-item .galeria-img {
+max-width: 100%;
+height: auto;
+  border: 6px solid var(--background-color);
+  position: relative;
+}
+
+
+.galeria .swiper-wrapper {
+  height: auto;
+}
+
+.galeria .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.galeria .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: var(--background-color);
+  opacity: 1;
+  border: 1px solid var(--accent-color);
+}
+
+.galeria .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+}
+
+@media (max-width: 767px) {
+  .galeria .galeria-wrap {
+    padding-left: 0;
+  }
+
+  .galeria .galeria-carousel,
+  .galeria .galeria-slider {
+    overflow: hidden;
+  }
+
+  .galeria .galeria-item {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .galeria .galeria-item .galeria-img {
+    position: static;
+    left: auto;
+  }
+}
+
+
+/*--------------------------------------------------------------
 # Courses Course Details Section
 --------------------------------------------------------------*/
 .courses-course-details {
@@ -1703,6 +1772,26 @@ section,
 
 .tabs .details p:last-child {
   margin-bottom: 0;
+}
+
+.tabs .tab-content ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tabs .tab-content ul li {
+  padding-bottom: 10px;
+}
+
+.tabs .tab-content ul i {
+  font-size: 1.25rem;
+  margin-right: 4px;
+  color: var(--accent-color);
 }
 
 @media (max-width: 992px) {
