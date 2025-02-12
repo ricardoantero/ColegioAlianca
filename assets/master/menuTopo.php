@@ -1,7 +1,7 @@
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index " class="logo d-flex align-items-center me-auto">
+      <a href="/" class="logo d-flex align-items-center me-auto">
         <h1 class="sitename"><Colégio Aliança></h1>
         <img class="logo-mobile" src="assets/img/logo-alianca-colorido.png" alt="Colégio Aliança">
         <img class="logo-desktop"src="assets/img/logo-colorido.png" alt="Colégio Aliança">
@@ -10,14 +10,8 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="sobre">Quem Somos</a></li>
-          <li class="dropdown"><a href="#"><span>Ensino</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="infantil">Infantil</a></li>
-              <li><a href="fundamental">Fundamental I e II</a></li>
-              <li><a href="medio">Médio</a></li>
-            </ul>
-          </li>
-          <li><a href="courses ">Extracurricular</a></li>
+          <li><a href="ensino">Ensino</a></li>
+          <li><a href="extracurricular">Extracurricular</a></li>
           <li><a href="eventos ">Eventos</a></li>
           <li class="dropdown"><a href="#"><span>Parceiros</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>

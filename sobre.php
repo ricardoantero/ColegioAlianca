@@ -2,60 +2,11 @@
 <body class="about-page">
 <?php include('assets/master/menuTopo.php'); ?>
   <main class="main">
-
    <!-- Page Title -->
-   <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Quem Somos</h1>
-             
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Page Title -->
+   <picture class="banner-desktop"> <source media="(max-width: 575px)" srcset="assets/img/banner_sobre_site_mobile.jpg">
+    <img class="banner-desktop" src="assets/img/banner_sobre_site_desktop.jpg" alt="Colégio Aliança" data-aos="fade-in">
+    </picture><!-- End Page Title -->
 
-   <!-- Carousel Section -->
-<!--<section id="banner-home" class="banner-home section dark-background">
-  <div id="carouselExample" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-     
-      <div class="carousel-item active">
-        <img src="assets/img/hero-bg.jpg" class="d-block w-100" alt="...">
-
-          <div class="carousel-caption d-none d-md-block">
-          
-            <h2>Venha nos conhecer!</h2>
-            <p>Se você procura um colégio que valorize a educação integral e o bem-estar das crianças, agende uma visita e descubra tudo o que o nosso Colégio tem a oferecer.</p>
-            <a href="matriculas" class="btn-get-started">Matriculas abertas 2025</a>
-        
-        </div>
-      </div>
-     
-      <div class="carousel-item">
-        <img src="assets/img/hero-bg.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Descubra nosso diferencial!</h2>
-          <p>Uma educação que transforma e prepara para o futuro. Venha entender como podemos fazer a diferença na vida do seu filho.</p>
-          <a href="matriculas" class="btn-get-started">Agende uma visita</a>
-        </div>
-      </div>
-      
-      <div class="carousel-item">
-        <img src="assets/img/hero-bg.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Educação que inspira!</h2>
-          <p>Formamos cidadãos críticos e criativos, prontos para enfrentar o mundo. Junte-se a nós e faça parte dessa jornada.</p>
-          <a href="matriculas" class="btn-get-started">Saiba mais</a>
-        </div>
-      </div>
-    </div>-->
-  </div>
-</section>
-<!-- /Carousel Section -->
-  
     <!-- About Us Section -->
     <section id="about-us" class="section about-us">
 
@@ -64,11 +15,11 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/diretoras-sobre-1.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 order-2 order-lg-2 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Família Colégio Aliança</h3>
+            <h3>Conheça a nossa história</h3>
             <p class="fst-italic">
               Venha fazer parte da nossa família Aliança, onde construímos juntos o futuro de nossos alunos, unindo conhecimento e valores para transformar o mundo!
             </p>
@@ -88,6 +39,11 @@
  <!-- Tabs Section -->
  <section id="tabs" class="tabs section">
 
+ <div class="container section-title" data-aos="fade-up">
+       
+       <p>Corpo Docente</p>
+       <h2></h2>
+     </div><!-- End Section Title -->
 <div class="container" data-aos="fade-up" data-aos-delay="100">
 
   <div class="row">
@@ -109,7 +65,7 @@
         <div class="tab-pane active show" id="tab-1">
           <div class="row">
             <div class="col-lg-8 details order-2 order-lg-1">
-              <h3>Ensino Infantil</h3>
+               <!--  <h3>Corpo Docente</h3> -->
               <ul>
                 <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
                 <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
@@ -127,7 +83,7 @@
         <div class="tab-pane" id="tab-2">
           <div class="row">
             <div class="col-lg-8 details order-2 order-lg-1">
-              <h3>Ensino Fundamental I e II</h3>
+          <!--    <h3>Corpo Docente</h3> -->
               <ul>
                 <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
                 <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
@@ -145,7 +101,7 @@
         <div class="tab-pane" id="tab-3">
           <div class="row">
             <div class="col-lg-8 details order-2 order-lg-1">
-              <h3>Ensino Médio</h3>
+               <!--  <h3>Corpo Docente</h3> -->
               <ul>
                 <li><i class="bi bi-check-circle"></i> <span>José Rodrigo</span></li>
                 <li><i class="bi bi-check-circle"></i> <span>Bernardo Campos</span></li>
