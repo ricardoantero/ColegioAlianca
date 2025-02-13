@@ -26,7 +26,7 @@
           <li class="dropdown"><a href="#"><span>Contato</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a  href="contato">Fale Conosco</a></li>
-              <li><a  href="contato">Trabalhe Conosco</a></li>
+              <li><a  href="trabalhe-conosco">Trabalhe Conosco</a></li>
             </ul>
           </li>
         </ul>

@@ -5,8 +5,8 @@
   <main class="main">
 
       <!-- Page Title -->
-      <picture class="banner-desktop"> <source media="(max-width: 575px)" srcset="assets/img/banner_contato_site_mobile.jpg">
-    <img class="banner-desktop" src="assets/img/banner_contato_site_desktop.jpg" alt="Colégio Aliança" data-aos="fade-in">
+      <picture class="banner-desktop"> <source media="(max-width: 575px)" srcset="assets/img/banner_trabalhe_site_mobile.jpg">
+    <img class="banner-desktop" src="assets/img/banner_trabalhe_site_desktop.jpg" alt="Colégio Aliança" data-aos="fade-in">
     </picture><!-- End Page Title -->
 
     <!-- Contact Section -->

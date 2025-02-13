@@ -29,9 +29,9 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Ensino</h4>
           <ul>
-            <li><a href="/infantil">Ensino Infantil</a></li>
-            <li><a href="/fundamental">Ensino Fundamental I e II</a></li>
-            <li><a href="/medio">Ensino Médio</a></li>
+            <li><a href="/ensino">Ensino Infantil</a></li>
+            <li><a href="/ensino">Ensino Fundamental I e II</a></li>
+            <li><a href="/ensino">Ensino Médio</a></li>
             <li><a href="/matriculas">Matrículas abertas</a></li>
           </ul>
         </div>
