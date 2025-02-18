@@ -23,10 +23,7 @@ require 'config.php';
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.413529013605!2d-47.19674492467022!3d-23.553587078805194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf7273579355cd%3A0x65386d1183b8fa93!2sR.%20Miguel%20Ferreira%20Man%C3%A3o%2C%2037%20-%20Trigal%2C%20Mairinque%20-%20SP%2C%2018120-000!5e0!3m2!1spt-PT!2sbr!4v1729704545130!5m2!1spt-PT!2sbr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
+    
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">

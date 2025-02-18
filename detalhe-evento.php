@@ -49,7 +49,7 @@ $caminho_imagem = "assets/eventos/{$imagem}/";
     <script>
         $(document).ready(function() {
            
-            for (var i = 1; i <= 250; i++) {
+            for (var i = 1; i <= 500; i++) {
                 var caminhoImagem = "<?php echo $caminho_imagem; ?>" + i + ".jpg"; 
                 var novaDiv = 
                     '<div class="col-md-3">' +

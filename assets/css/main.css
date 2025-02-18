@@ -1851,7 +1851,7 @@ height: auto;
   overflow: hidden;
   position: relative;
   border: 10px solid var(--accent-color); /* Altere a cor e a largura da borda conforme necessário */
-  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  padding: 0; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
 
@@ -1861,7 +1861,7 @@ height: auto;
   overflow: hidden;
   position: relative;
   border: 10px solid var(--accent-color-green); /* Altere a cor e a largura da borda conforme necessário */
-  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  padding: 0; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
 
@@ -1871,7 +1871,7 @@ height: auto;
   overflow: hidden;
   position: relative;
   border: 10px solid var(--accent-color-yellow); /* Altere a cor e a largura da borda conforme necessário */
-  padding: 5px; /* Espaçamento entre a imagem e a borda */
+  padding: 0; /* Espaçamento entre a imagem e a borda */
   display: inline-block; /* Certifica-se de que o tamanho da borda se ajuste à imagem */
 }
 
@@ -2270,4 +2270,50 @@ height: auto;
   width: 100%;
   height: auto;
 }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 660px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inicialmente, exibe a thumbnail e esconde o vídeo */
+.video-thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-element {
+  width: 660px;
+  height: 440px;
+  object-fit: cover;
+  display: none; /* O vídeo começa oculto */
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .video-container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+}
+
 

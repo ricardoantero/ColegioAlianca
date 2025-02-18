@@ -12,10 +12,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.411854325626!2d-47.19681512502112!3d-23.553647261308164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf7274aa481bfd%3A0xbec0495e9de22cec!2sCol%C3%A9gio%20Alian%C3%A7a%20de%20Educa%C3%A7%C3%A3o%20Infantil%2C%20Ensino%20Fundamental%20e%20Ensino%20M%C3%A9dio!5e0!3m2!1spt-PT!2sbr!4v1739386673258!5m2!1spt-PT!2sbr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
+    
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
@@ -29,60 +26,72 @@
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Contato</h3>
-                <p>(11) 97358-1540</p>
-              </div>
-            </div><!-- End Info Item -->
-
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email</h3>
-                <p>alianca@alianca.com.br</p>
+                <p>curriculos.colegioalianca@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+            <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Nome" required="">
+                    <div class="col-md-6">
+                        <input type="text" name="full_name" class="form-control" placeholder="Nome Completo" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Por favor, insira um email válido">
+                    </div>
+
+                    <div class="col-md-6">
+                    <input type="text" class="form-control" name="phone" placeholder="Telefone" required id="phone">
+                    </div>
+
+                    <div class="col-md-6">
+                        <select name="area" class="form-control" required style="appearance: auto;">
+                            <option value="" disabled selected>Escolha a Área</option>
+                            <option value="Administrativo">Administrativo</option>
+                            <option value="Recepção">Recepção</option>
+                            <option value="Limpeza">Limpeza</option>
+                            <option value="Estágio">Estágio</option>
+                            <option value="Professor">Professor</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required></textarea>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Aguarde...</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Sua mensagem foi enviada com sucesso!</div>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+
                 </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Aguarde...</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Sua mensagem foi enviada com sucesso!</div>
-
-                  <button type="submit">Enviar Mensagem</button>
-                </div>
-
-              </div>
             </form>
-          </div><!-- End Contact Form -->
+        </div>
         </div>
       </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('#phone').on('input', function() {
+                  var x = $(this).val().replace(/\D/g, '').match(/(\d{0,2})(\d{0,5})(\d{0,4})/);
+                  $(this).val(!x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : ''));
+              });
+          });
+      </script>
     </section><!-- /Contact Section -->
 
   </main>
+ 
   <?php include('assets/master/rodape.php'); ?>
 </body>
 

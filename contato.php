@@ -41,7 +41,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email</h3>
-                <p>alianca@alianca.com.br</p>
+                <p>colegioaliancasecretaria1@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 

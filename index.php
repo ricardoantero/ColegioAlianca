@@ -9,17 +9,18 @@
     <section id="about" class="about section">
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-          <video id="meu-video" class="video-element" controls="" width="100%"><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
+          <div class="col-lg-6 order-1 order-lg-2 video-container" data-aos="fade-up" data-aos-delay="100">
+            <img alt="Thumbnail do vídeo" class="video-thumbnail" src="/assets/img/alianca.png">
+            <video id="meu-video" class="video-element"  controls><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
             <h3>Uma nova Aliança é formada em cada fase.</h3>
             <p>No Ensino Infantil, os alunos descobrem o mundo; no Ensino Fundamental, consolidam conhecimentos; e no Ensino Médio, se preparam para o futuro, moldando suas identidades e trajetórias.</p>
            <p>Essa jornada não é apenas sobre aprender conteúdos, mas também sobre construir relacionamentos e valores que acompanharão os alunos por toda a vida. No Colégio Aliança, cada fase é celebrada como uma oportunidade de crescimento e descoberta.</p>
-            <a href="infantil" class="read-more-yellow"><span>Ensino Infantil</span><i class="bi bi-arrow-right"></i></a>
-            <a href="fundamental" class="read-more-green"><span>Ensino Fundamental I e II</span><i class="bi bi-arrow-right"></i></a>
-            <a href="medio" class="read-more"><span>Ensino Médio</span><i class="bi bi-arrow-right"></i></a>
+            <a href="/ensino" class="read-more-yellow"><span>Ensino Infantil</span><i class="bi bi-arrow-right"></i></a>
+            <a href="/ensino" class="read-more-green"><span>Ensino Fundamental I e II</span><i class="bi bi-arrow-right"></i></a>
+            <a href="/ensino" class="read-more"><span>Ensino Médio</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -93,7 +94,7 @@
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img-green">
             <a href="/sobre">
-              <img src="assets/img/quem-somos-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/quem-somos-1.png" class="img-fluid" alt="">
             </a>
             </div>
             <div class="member-info text-center">
@@ -104,7 +105,7 @@
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img-yellow">
               <a href="/extracurricular">
-              <img src="assets/img/extracurricular-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/extracurricular-1.png" class="img-fluid" alt="">
               </a>
             </div>
             <div class="member-info text-center">
@@ -115,7 +116,7 @@
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
             <a href="/eventos">
-              <img src="assets/img/eventos-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/eventos-1.png" class="img-fluid" alt="">
             </a>
             </div>
             <div class="member-info text-center">
@@ -128,124 +129,7 @@
 
     </section><!-- /Courses Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Depoímentos</h2>
-        <p>O que as pessoas estão dizendo</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Ricardo Antero</h3>
-                  <h4>Ex Aluno</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Eloá Antero</h3>
-                  <h4>Ex Aluna</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>José</h3>
-                  <h4>Professor de Matemática</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Maria Aparecida</h3>
-                  <h4>Mãe da Laura e Bento</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>  Estudar nesta escola foi uma experiência transformadora. Aqui, encontrei apoio, professores dedicados e um ambiente que estimulou minha curiosidade. Aprendi não apenas o conteúdo, mas também a importância de ser um cidadão consciente. Sou grato por tudo o que essa instituição fez por mim!</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-  
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
+   
   </main>
   <?php include('assets/master/rodape.php'); ?>
 </body>
@@ -267,4 +151,16 @@
             }
         });
     });
+
+    $(document).ready(function () {
+      $(".video-thumbnail").click(function () {
+        $(this).hide(); // Esconde a thumbnail
+        let video = $(".video-element");
+        video.show(); // Exibe o vídeo
+        video[0].play(); // Inicia o vídeo automaticamente
+      });
+    });
+
+
+    
 </script>
