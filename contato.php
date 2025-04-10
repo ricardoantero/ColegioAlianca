@@ -8,7 +8,7 @@
       <picture class="banner-desktop"> <source media="(max-width: 575px)" srcset="assets/img/banner_contato_site_mobile.jpg">
     <img class="banner-desktop" src="assets/img/banner_contato_site_desktop.jpg" alt="Colégio Aliança" data-aos="fade-in">
     </picture><!-- End Page Title -->
-
+    <br>
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -48,7 +48,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <form action="forms/contato.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -58,8 +58,10 @@
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Email" required="">
                 </div>
-
-                <div class="col-md-12">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" name="phone" placeholder="Telefone" required id="phone" placeholder="(00) 00000-0000">
+                </div>
+                <div class="col-md-6">
                   <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
                 </div>
 
@@ -68,9 +70,9 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Aguarde...</div>
+                  <div class="loading">Aguarde</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Sua mensagem foi enviada com sucesso!</div>
+                  <div class="sent-message">Seu contato foi recebido com sucesso!</div>
 
                   <button type="submit">Enviar Mensagem</button>
                 </div>
@@ -85,5 +87,21 @@
   </main>
   <?php include('assets/master/rodape.php'); ?>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script>
+$(document).ready(function() {
+  var maskBehavior = function (val) {
+    return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+  };
 
+  var options = {
+    onKeyPress: function(val, e, field, opts) {
+      field.mask(maskBehavior.apply({}, arguments), opts);
+    }
+  };
+
+  $('#phone').mask(maskBehavior, options);
+});
+</script>
 </html>

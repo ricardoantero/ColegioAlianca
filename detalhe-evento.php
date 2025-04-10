@@ -20,8 +20,9 @@ $caminho_imagem = "assets/eventos/{$imagem}/";
         }
 
         .image-container img {
-            width: 100%;
-            height: auto;
+            width: 480px;   /* Set a fixed width for all thumbnails */
+            height: 320px;
+            object-fit: cover; 
             display: block;
             border-radius: 8px;
             transition: transform 0.3s ease;

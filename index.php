@@ -11,7 +11,7 @@
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2 video-container" data-aos="fade-up" data-aos-delay="100">
             <img alt="Thumbnail do vídeo" class="video-thumbnail" src="/assets/img/alianca.png">
-            <video id="meu-video" class="video-element"  controls><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
+            <video id="meu-video" class="video-element" preload="none" controls><source src="/assets/img/alianca.mp4" type="video/mp4"></video>
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">

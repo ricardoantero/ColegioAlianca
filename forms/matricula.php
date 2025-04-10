@@ -8,7 +8,6 @@ require '../vendor/autoload.php'; // Certifique-se de ter o PHPMailer instalado 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = htmlspecialchars($_POST["name"]);
     $email = htmlspecialchars($_POST["email"]);
-    $assunto = htmlspecialchars($_POST["subject"]);
     $phone = htmlspecialchars($_POST["phone"]);
     $mensagem = nl2br(htmlspecialchars($_POST["message"]));
 
@@ -23,9 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Conteúdo do e-mail
         $mail->isHTML(true);
-        $mail->Subject = "Contato Site: $assunto";
+        $mail->Subject = "Nova solicitação de matrícula";
         $mail->Body    = "
-            <h3>Detalhes da mensagem de contato do site Colégio Aliança</h3>
+            <h3>Detalhes da solicitação de matrícula</h3>
             <p><strong>Nome:</strong> $nome</p>
             <p><strong>Email:</strong> $email</p>
             <p><strong>Telefone:</strong> $phone</p>

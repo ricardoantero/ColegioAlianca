@@ -11,51 +11,41 @@
     <section id="about-us" class="section about-us">
 
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/diretoras-sobre-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 order-2 order-lg-2 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Conheça a nossa história</h3>
-            <p><strong>Missão:</strong> O Colégio Aliança Mairinque tem como missão promover a excelência acadêmica e o desenvolvimento integral de nossos alunos, preparando-os para um futuro de sucesso e contribuição à sociedade. Nossa abordagem centrada no aluno visa inspirar a aprendizagem, fomentar valores éticos e cívicos, e cultivar a criatividade e o pensamento crítico.</p>
-
-<p><strong>Valores:</strong></p>
-
-<p><strong>Excelência Acadêmica:</strong> Buscamos continuamente o mais alto padrão de qualidade em educação para capacitar nossos alunos a alcançar seu pleno potencial intelectual.</p>
-
-<p><strong>Integridade:</strong> Promovemos a honestidade, a ética e a responsabilidade pessoal em todas as interações e atividades.</p>
-
-<p><strong>Respeito:</strong> Valorizamos a diversidade e respeitamos as opiniões, culturas e crenças de todos os membros da comunidade escolar.</p>
-
-<p><strong>Colaboração:</strong> Fomentamos um ambiente de trabalho em equipe, incentivando a colaboração entre alunos, pais, professores e funcionários.</p>
-
-<p><strong>Inovação:</strong> Estimulamos a criatividade, a curiosidade e a busca constante por soluções inovadoras no ensino e na aprendizagem.</p>
-
-<p><strong>Cidadania Responsável:</strong> Preparamos nossos alunos para serem cidadãos ativos e conscientes, prontos para contribuir positivamente para a sociedade.</p>
-
-<p><strong>Objetivos:</strong></p>
-
-<p><strong>Promover o Sucesso Acadêmico:</strong> Garantir que cada aluno alcance seu máximo potencial acadêmico, proporcionando um currículo robusto e métodos de ensino eficazes.</p>
-
-<p><strong>Desenvolver Habilidades Sociais:</strong> Incentivar o desenvolvimento de habilidades interpessoais, empatia e resolução de conflitos para criar cidadãos responsáveis e compassivos.</p>
-
-<p><strong>Cultivar a Curiosidade:</strong> Estimular a curiosidade intelectual e o amor pelo aprendizado ao longo da vida.</p>
-
-<p><strong>Fortalecer o Envolvimento dos Pais:</strong> Envolver ativamente os pais na educação de seus filhos e criar parcerias sólidas entre a escola e a comunidade.</p>
-
-<p><strong>Adotar a Tecnologia de Forma Estratégica:</strong> Utilizar tecnologia educacional de maneira eficiente para melhorar a experiência de aprendizagem.</p>
-
-<p><strong>Promover Atividades Extracurriculares:</strong> Oferecer uma variedade de atividades extracurriculares para enriquecer a vida escolar dos alunos e desenvolver suas habilidades e interes
-
-          </div>
-         
+        <div class="row gy-5">
+            <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/diretoras-sobre-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 order-2 order-lg-2 content" data-aos="fade-up" data-aos-delay="200">
+              <h3>Missão</h3>
+              <p> O Colégio Aliança Mairinque tem como missão promover a excelência acadêmica e o desenvolvimento integral de nossos alunos, preparando-os para um futuro de sucesso e contribuição à sociedade. Nossa abordagem centrada no aluno visa inspirar a aprendizagem, fomentar valores éticos e cívicos, e cultivar a criatividade e o pensamento crítico.</p>
+              <h3>Valores:</h3>
+              <p><strong>Excelência Acadêmica:</strong> Buscamos continuamente o mais alto padrão de qualidade em educação para capacitar nossos alunos a alcançar seu pleno potencial intelectual.</p>
+              <p><strong>Integridade:</strong> Promovemos a honestidade, a ética e a responsabilidade pessoal em todas as interações e atividades.</p>
+              <p><strong>Respeito:</strong> Valorizamos a diversidade e respeitamos as opiniões, culturas e crenças de todos os membros da comunidade escolar.</p>
+              <p><strong>Colaboração:</strong> Fomentamos um ambiente de trabalho em equipe, incentivando a colaboração entre alunos, pais, professores e funcionários.</p>
+              <p><strong>Inovação:</strong> Estimulamos a criatividade, a curiosidade e a busca constante por soluções inovadoras no ensino e na aprendizagem.</p>
+              <p><strong>Cidadania Responsável:</strong> Preparamos nossos alunos para serem cidadãos ativos e conscientes, prontos para contribuir positivamente para a sociedade.</p>
+            </div>
         </div>
+        <div class="row gy-5">
+        <div class="col-lg-6 order-3 order-lg-3 content" data-aos="fade-up" data-aos-delay="200">
+              <h3>Objetivos:</h3>
 
+              <p><strong>Promover o Sucesso Acadêmico:</strong> Garantir que cada aluno alcance seu máximo potencial acadêmico, proporcionando um currículo robusto e métodos de ensino eficazes.</p>
+
+              <p><strong>Desenvolver Habilidades Sociais:</strong> Incentivar o desenvolvimento de habilidades interpessoais, empatia e resolução de conflitos para criar cidadãos responsáveis e compassivos.</p>
+
+              <p><strong>Cultivar a Curiosidade:</strong> Estimular a curiosidade intelectual e o amor pelo aprendizado ao longo da vida.</p>
+
+              <p><strong>Fortalecer o Envolvimento dos Pais:</strong> Envolver ativamente os pais na educação de seus filhos e criar parcerias sólidas entre a escola e a comunidade.</p>
+
+              <p><strong>Adotar a Tecnologia de Forma Estratégica:</strong> Utilizar tecnologia educacional de maneira eficiente para melhorar a experiência de aprendizagem.</p>
+
+              <p><strong>Promover Atividades Extracurriculares:</strong> Oferecer uma variedade de atividades extracurriculares para enriquecer a vida escolar dos alunos e desenvolver suas habilidades e interes
+
+          </div>
+        </div>
       </div>
-
     </section><!-- /About Us Section -->
 
  <!-- Tabs Section -->
