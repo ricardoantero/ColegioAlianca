@@ -26,4 +26,13 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css?v=1" rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZYFR1L11L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MZYFR1L11L');
+</script>
 </head>
