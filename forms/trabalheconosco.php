@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->addAddress('colegioalianca.midia@gmail.com', 'Admin');
         $mail->CharSet = 'UTF-8';
         $mail->isHTML(true);
-        $mail->Subject = "Novo contato | Trabalhe Conosco";
+        $mail->Subject = "Novo contato | Trabalhe Conosco |  $nome";
         $mail->Body    = "
             <h3>Detalhes da mensagem de Trabalhe Conosco do site Colégio Aliança</h3>
             <p><strong>Nome:</strong> $nome</p>

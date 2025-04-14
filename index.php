@@ -45,35 +45,40 @@
           </div><!-- End Why Box -->
 
           <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+  <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
-              <div class="col-xl-4">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-book"></i>
-                  <h4>Material Didático</h4>
-                  <p>O Bernoulli oferece materiais didáticos completos e atualizados, aliados a uma abordagem pedagógica que acompanha os alunos em cada etapa de sua formação, desde a Educação Infantil até o Ensino Médio. A proposta é baseada no "conhecimento em espiral", que revisita conteúdos em níveis crescentes de complexidade, promovendo um aprendizado contínuo e significativo.</p>
-                </div>
-              </div><!-- End Icon Box -->
+    <div class="col-xl-4 d-flex">
+      <div class="icon-box w-100 d-flex flex-column">
+        <div class="icon-box-content d-flex flex-column align-items-center text-center">
+          <i class="bi bi-book"></i>
+          <h4>Material Didático</h4>
+          <p>O Bernoulli oferece materiais didáticos completos e atualizados, aliados a uma abordagem pedagógica que acompanha os alunos em cada etapa de sua formação, desde a Educação Infantil até o Ensino Médio. A proposta é baseada no "conhecimento em espiral", que revisita conteúdos em níveis crescentes de complexidade, promovendo um aprendizado contínuo e significativo.</p>
+        </div>
+      </div>
+    </div>
 
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-mortarboard"></i>
-                  <h4>Educação Completa</h4>
-                  <p>Além disso, o sistema integra recursos tecnológicos avançados, projetos bilíngues e estímulos às habilidades socioemocionais, proporcionando uma formação completa para nossos estudantes. Essa excelência é comprovada pelos índices de aprovação em vestibulares e pelo desempenho destacado em avaliações nacionais.
-                  </p>
-                </div>
-              </div><!-- End Icon Box -->
+    <div class="col-xl-4 d-flex">
+      <div class="icon-box w-100 d-flex flex-column">
+        <div class="icon-box-content d-flex flex-column align-items-center text-center">
+          <i class="bi bi-mortarboard"></i>
+          <h4>Educação Completa</h4>
+          <p>Além disso, o sistema integra recursos tecnológicos avançados, projetos bilíngues e estímulos às habilidades socioemocionais, proporcionando uma formação completa para nossos estudantes. Essa excelência é comprovada pelos índices de aprovação em vestibulares e pelo desempenho destacado em avaliações nacionais.</p>
+        </div>
+      </div>
+    </div>
 
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-pencil"></i>
-                  <h4>Escolha o Aliança</h4>
-                  <p>Ao escolher o Colégio Aliança, você garante a seus filhos não apenas um ensino de qualidade, mas uma formação que valoriza o desenvolvimento humano e acadêmico, preparando-os para os desafios do futuro.</p>
-                </div>
-              </div><!-- End Icon Box -->
+    <div class="col-xl-4 d-flex">
+      <div class="icon-box w-100 d-flex flex-column">
+        <div class="icon-box-content d-flex flex-column align-items-center text-center">
+          <i class="bi bi-pencil"></i>
+          <h4>Escolha o Aliança</h4>
+          <p>Ao escolher o Colégio Aliança, você garante a seus filhos não apenas um ensino de qualidade, mas uma formação que valoriza o desenvolvimento humano e acadêmico, preparando-os para os desafios do futuro.</p>
+        </div>
+      </div>
+    </div>
 
-            </div>
-          </div>
+  </div>
+</div>
 
         </div>
 

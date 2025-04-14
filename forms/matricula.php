@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Conteúdo do e-mail
         $mail->isHTML(true);
-        $mail->Subject = "Nova solicitação de matrícula";
+        $mail->Subject = "Nova solicitação de matrícula | $nome";
         $mail->Body    = "
             <h3>Detalhes da solicitação de matrícula</h3>
             <p><strong>Nome:</strong> $nome</p>

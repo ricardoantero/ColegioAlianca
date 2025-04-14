@@ -12,7 +12,7 @@
           <li><a href="sobre">Quem Somos</a></li>
           <li><a href="ensino">Ensino</a></li>
           <li><a href="extracurricular">Extracurricular</a></li>
-          <li><a href="eventos ">Eventos</a></li>
+          <li><a href="eventos">Eventos</a></li>
           <li class="dropdown"><a href="#"><span>Parceiros</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a target="_blank" href="https://www.instagram.com/accquasports/?hl=pt">Accqua Sports</a></li>
@@ -25,8 +25,8 @@
           </li>
           <li class="dropdown"><a href="#"><span>Contato</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a  href="contato">Fale Conosco</a></li>
-              <li><a  href="trabalhe-conosco">Trabalhe Conosco</a></li>
+              <li class="dropapply"><a  href="contato">Fale Conosco</a></li>
+              <li class="dropapply"><a  href="trabalhe-conosco">Trabalhe Conosco</a></li>
             </ul>
           </li>
         </ul>
@@ -36,4 +36,20 @@
       <a class="btn-getstarted" href="matriculas">Matrículas Abertas</a>
 
     </div>
+    <!-- Inclua o jQuery (se ainda não tiver): -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function () {
+  var currentPath = window.location.pathname.replace(/^\/+|\/+$/g, '');
+
+  $('#navmenu li:not(.dropapply) > a').each(function () {
+    var linkPath = $(this).attr('href').replace(/^\/+|\/+$/g, '');
+
+    if (linkPath && currentPath === linkPath) {
+      $(this).addClass('active');
+    }
+  });
+});
+</script>
   </header>

@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Conteúdo do e-mail
         $mail->isHTML(true);
-        $mail->Subject = "Contato Site: $assunto";
+        $mail->Subject = "Contato Site: $nome | $assunto";
         $mail->Body    = "
             <h3>Detalhes da mensagem de contato do site Colégio Aliança</h3>
             <p><strong>Nome:</strong> $nome</p>
