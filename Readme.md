@@ -43,4 +43,4 @@ Exemplos de como se deve executar para ter um ambiente de desenvolvimento:
 ## ✒️ Autores
 
 * **Ricardo Antero** - *Desenvolvedor* 
-* **Vitor Sales Davanzo** - "Desenvolvedor*
+* **Vitor Sales Davanzo** - *Desenvolvedor*
