@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Colégio Aliança</title>
-  <meta name="description" content="Colégio Aliança Infantil e Médio, um espaço acolhedor e inspirador dedicado ao desenvolvimento integral das crianças. Aqui, acreditamos que cada aluno é único e merece uma educação que estimule suas habilidades e talentos individuais.">
-  <meta name="keywords" content="Colégio, Aliança, Educação, Infantil, Médio, Professores, Aprendizado">
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colégio Aliança Mairinque | Educação Infantil, Fundamental e Médio</title>
 
+  <meta name="description" content="O Colégio Aliança em Mairinque oferece ensino de qualidade da Educação Infantil ao Ensino Médio. Comprometido com a formação integral dos alunos.">
+  <meta name="keywords" content="Colégio, Escola, Aliança, Mairinque, Ensino, Educação Infantil, Educação Fundamental, Ensino Médio, Ensino Infantil, Ensino Fundamental, Educação, Colégio em Mairinque, Escola Particular">
+  <meta name="author" content="Colégio Aliança Mairinque">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph para redes sociais -->
+  <meta property="og:title" content="Colégio Aliança Mairinque | Educação Infantil ao Médio">
+  <meta property="og:description" content="Ensino de excelência em Mairinque. Educação Infantil, Fundamental e Médio com estrutura moderna e equipe qualificada.">
+  <meta property="og:image" content="https://colegioaliancamk.com.br/imagem-de-destaque.jpg">
+  <meta property="og:url" content="https://colegioaliancamk.com.br/">
+  <meta property="og:type" content="website">
+  
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/favicon.png" rel="icon">
+  <link href="assets/favicon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">

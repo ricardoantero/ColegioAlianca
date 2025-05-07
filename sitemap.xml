@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Inicial -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Quem Somos -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/sobre</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ensino -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/ensino</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Extracurricular -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/extracurricular</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Eventos -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/eventos</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Matrículas Abertas -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/matriculas</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Fale Conosco -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/contato</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Trabalhe Conosco -->
+  <url>
+    <loc>https://colegioaliancamk.com.br/trabalhe-conosco</loc>
+    <lastmod>2025-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         configureMail($mail); // Sua função de configuração SMTP
 
-        $mail->addAddress('colegioalianca.midia@gmail.com', 'Admin');
+        $mail->addAddress('curriculos.colegioalianca@gmail.com', 'Admin');
         $mail->CharSet = 'UTF-8';
         $mail->isHTML(true);
         $mail->Subject = "Novo contato | Trabalhe Conosco |  $nome";

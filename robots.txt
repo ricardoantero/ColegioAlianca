@@ -1,0 +1,12 @@
+# Permite todos os bots a acessarem o site
+User-agent: *
+Allow: /
+
+# Bloqueia pastas administrativas (ajuste conforme estrutura do site)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /painel/
+Disallow: /wp-admin/
+
+# Sitemap para ajudar os mecanismos de busca a encontrarem todas as páginas
+Sitemap: https://colegioaliancamk.com.br/sitemap.xml

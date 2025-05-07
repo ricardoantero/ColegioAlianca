@@ -25,7 +25,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Contato</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropapply"><a  href="contato">Fale Conosco</a></li>
+             <!-- <li class="dropapply"><a  href="contato">Fale Conosco</a></li> -->
               <li class="dropapply"><a  href="trabalhe-conosco">Trabalhe Conosco</a></li>
             </ul>
           </li>
