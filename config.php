@@ -10,7 +10,7 @@ function configureMail(PHPMailer $mail) {
     $mail->Host = 'email-ssl.com.br'; // Use o servidor SMTP do seu provedor de e-mail
     $mail->SMTPAuth = true;
     $mail->Username = 'smtp@colegioaliancamk.com.br'; // Seu e-mail
-    $mail->Password = 'Col@@Aliança8721'; // Sua senha ou senha de aplicativo
+    $mail->Password = 'xpto'; // Sua senha ou senha de aplicativo
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;
     
