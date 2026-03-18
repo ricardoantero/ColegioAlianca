@@ -1,6 +1,6 @@
 # Colégio Aliança
 
-Projeto destinado ao site institucional do Colégio Aliança
+Projeto destinado ao site institucional do Colégio Aliança de Mairinque
 
 ## 🚀 Começando
 
